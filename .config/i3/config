@@ -1,10 +1,4 @@
-###################################################
-###################################################
-#####                       #######################
 ##### i3-config / RESLOVED  #######################
-#####                       #######################
-###################################################
-###################################################
 
 ##### GENERAL ##################################### 
 
@@ -133,64 +127,64 @@ bindsym $mod+c move absolute position center
 
 # WORKSPACES
 set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
+#set $ws2 "2"
+#set $ws3 "3"
 #set $ws4 "4"
 #set $ws5 "5"
 #set $ws6 "6"
 #set $ws7 "7"
 #set $ws8 "8"
 #set $ws9 "9"
-set $ws10 "10"
+#set $ws10 "10"
 
 # LAST WORKSPACE
 bindsym $mod+b workspace back_and_forth
 
 # SWITCH TO WORKSPACE
 bindsym $mod+1 workspace $ws1
-bindsym $mod+2 workspace $ws2
-bindsym $mod+3 workspace $ws3
+# bindsym $mod+2 workspace $ws2
+# bindsym $mod+3 workspace $ws3
 # bindsym $mod+4 workspace $ws4
 # bindsym $mod+5 workspace $ws5
 # bindsym $mod+6 workspace $ws6
 # bindsym $mod+7 workspace $ws7
 # bindsym $mod+8 workspace $ws8
 # bindsym $mod+9 workspace $ws9
-bindsym $mod+0 workspace $ws10
+# bindsym $mod+0 workspace $ws10
 
 # MOVE WINDOW TO WORKSPACE
 bindsym $mod+Ctrl+1 move container to workspace $ws1
-bindsym $mod+Ctrl+2 move container to workspace $ws2
-bindsym $mod+Ctrl+3 move container to workspace $ws3
+# bindsym $mod+Ctrl+2 move container to workspace $ws2
+# bindsym $mod+Ctrl+3 move container to workspace $ws3
 # bindsym $mod+Ctrl+4 move container to workspace $ws4
 # bindsym $mod+Ctrl+5 move container to workspace $ws5
 # bindsym $mod+Ctrl+6 move container to workspace $ws6
 # bindsym $mod+Ctrl+7 move container to workspace $ws7
 # bindsym $mod+Ctrl+8 move container to workspace $ws8
 # bindsym $mod+Ctrl+9 move container to workspace $ws9
-bindsym $mod+Ctrl+0 move container to workspace $ws10
+# bindsym $mod+Ctrl+0 move container to workspace $ws10
 
 bindsym $mod+Mod2+KP_1 workspace $ws1
-bindsym $mod+Mod2+KP_2 workspace $ws2
-bindsym $mod+Mod2+KP_3 workspace $ws3
+# bindsym $mod+Mod2+KP_2 workspace $ws2
+# bindsym $mod+Mod2+KP_3 workspace $ws3
 # bindsym $mod+Mod2+KP_4 workspace $ws4
 # bindsym $mod+Mod2+KP_5 workspace $ws5
 # bindsym $mod+Mod2+KP_6 workspace $ws6
 # bindsym $mod+Mod2+KP_7 workspace $ws7
 # bindsym $mod+Mod2+KP_8 workspace $ws8
 # bindsym $mod+Mod2+KP_9 workspace $ws9
-bindsym $mod+Mod2+KP_0 workspace $ws10
+# bindsym $mod+Mod2+KP_0 workspace $ws10
 
 bindsym $mod+Ctrl+Mod2+KP_1 move container to workspace $ws1
-bindsym $mod+Ctrl+Mod2+KP_2 move container to workspace $ws2
-bindsym $mod+Ctrl+Mod2+KP_3 move container to workspace $ws3
+# bindsym $mod+Ctrl+Mod2+KP_2 move container to workspace $ws2
+# bindsym $mod+Ctrl+Mod2+KP_3 move container to workspace $ws3
 # bindsym $mod+Ctrl+Mod2+KP_4 move container to workspace $ws4
 # bindsym $mod+Ctrl+Mod2+KP_5 move container to workspace $ws5
 # bindsym $mod+Ctrl+Mod2+KP_6 move container to workspace $ws6
 # bindsym $mod+Ctrl+Mod2+KP_7 move container to workspace $ws7
 # bindsym $mod+Ctrl+Mod2+KP_8 move container to workspace $ws8
 # bindsym $mod+Ctrl+Mod2+KP_9 move container to workspace $ws9
-bindsym $mod+Ctrl+Mod2+KP_0 move container to workspace $ws10
+# bindsym $mod+Ctrl+Mod2+KP_0 move container to workspace $ws10
 
 ##### COLORS #######################################
 
@@ -229,7 +223,7 @@ bindsym $mod+Ctrl+period exec amixer sset Master 5%+
 
 # ROFI
 bindsym $mod+d exec rofi -show window -theme list
-bindsym $mod+Ctrl+d exec rofi -show drun -show-icons -theme list
+#bindsym $mod+Ctrl+d exec rofi -show drun -show-icons -theme list
 bindsym $mod+Shift+d exec $scripts/rofimoji/rofimoji.py 
 
 # BACKGROUND
@@ -300,6 +294,4 @@ exec --no-startup-id slock
 # RELOAD
 exec_always --no-startup-id compton
 
-###################################################
 ##### end #########################################
-###################################################
