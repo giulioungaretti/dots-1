@@ -1,6 +1,6 @@
 ##### .zshrc / RESLOVED ###########################
 
-###### OHMYZSH ####################################
+##### OHMYZSH #####################################
 
 # PATH
 export ZSH=/home/ben/.oh-my-zsh
@@ -23,6 +23,8 @@ alias le="echo ''; ls; echo ''"
 alias neo="clear; echo '\n'; neofetch"
 # EMACS CLIENT
 alias ec="emacsclient -t"
+# RELOAD XRESOURCES
+alias xr="xrdb -merge ~/.Xresources"
 
 ##### PATH ######################################## 
 
@@ -35,5 +37,8 @@ export PATH=/usr/lib/jvm/java-10-jdk/bin/:$PATH
 export PATH="`ruby -e 'puts Gem.user_dir'`/bin:$PATH"
 # SCRIPTS
 export PATH=$HOME/scripts:$PATH
+<<<<<<< HEAD
 
 ##### end #########################################
+=======
+>>>>>>> master

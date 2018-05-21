@@ -25,7 +25,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Hasklug Nerd Font Mono" :height 80 :width normal)))))
+ '(default ((t (:family "Hasklug Nerd Font Mono" :height 90 :width normal)))))
 
 ;;;;; GENERAL ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -36,11 +36,14 @@
 
 ;;;;; VISUAL ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; MOLOKAI
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+
+;; MOLOKAI
 (load-theme 'molokai t)
+
 ;; VISUAL LINE (Wrapping mode)
 (global-visual-line-mode 1)
+
 
 ;;;;; MODE-LINE ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -68,7 +71,6 @@
 ;; CONNECT TO MELPA
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 (add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/"))
-(package-initialize)
 ;; USE-PACKAGE
 (unless (package-installed-p 'use-pacakge)
   (package-refresh-contents)
@@ -297,5 +299,8 @@
 (set-face-attribute 'eterm-256color-15 nil
                     :background "#ffffff"
                     :foreground "#ffffff")
+<<<<<<< HEAD
 
 ;;;;; end ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+=======
+>>>>>>> master
