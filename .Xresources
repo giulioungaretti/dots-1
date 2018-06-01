@@ -1,35 +1,44 @@
 !!!!! .Xresources / RESLOVED !!!!!!!!!!!!!!!!!!!!!! 
-<<<<<<< HEAD
-=======
 
-! SPECIAL
-*foreground:   #f8f8f8
-*background:   #1b1d1e
-! BLACK
-*color0:       #465457
-*color8:       #1b1d1e
-! RED
-*color1:       #d7005f
-*color9:       #d7005f
-! GREEN
-*color2:       #87ff00
-*color10:      #87ff00
-! YELLOW
-*color3:       #ff8700
-*color11:      #ff8700
-! BLUE
-*color4:       #acac85
-*color12:      #acac85
-! MAGENTA
-*color5:       #af5fff
-*color13:      #af5fff
-! CYAN
-*color6:       #5fd7ff
-*color14:      #5fd7ff
-! WHITE
-*color7:       #f8f8f8
-*color15:      #ffffff
->>>>>>> master
+! MOLOKAI
+!*foreground:   #f8f8f8
+!*background:   #1b1d1e
+!*color0:       #465457
+!*color8:       #808080
+!*color1:       #d7005f
+!*color9:       #f92672
+!*color2:       #87ff00
+!*color10:      #a6e22e
+!*color3:       #ff8700
+!*color11:      #fd971f
+!*color4:       #acac85
+!*color12:      #c4be89
+!*color5:       #af5fff
+!*color13:      #ae81ff
+!*color6:       #5fd7ff
+!*color14:      #84e0f2
+!*color7:       #f8f8f8
+!*color15:      #ffffff
+
+! DRACULA
+*foreground:   #f8f8f2
+*background:   #282a36
+*color0:       #6272a4
+*color8:       #4d4d4d
+*color1:       #ff5555
+*color9:       #ff6e67
+*color2:       #50fa7b
+*color10:      #5af78e
+*color3:       #f1fa8c
+*color11:      #f4f99d
+*color4:       #bd93f9
+*color12:      #caa9fa
+*color5:       #ff79c6
+*color13:      #ff92d0
+*color6:       #8be9fd
+*color14:      #9aedfe
+*color7:       #bfbfbf
+*color15:      #e6e6e6
 
 !!!!! URXVT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -41,42 +50,9 @@ URxvt*scrollBar: false
 URxvt*iso14755: false
 URxvt*iso14755_52: false
 
-! FONT
-URxvt*font: xft:Hasklug Nerd Font Mono:size=9
-
 ! BORDER
 URxvt*borderWidth: 0
 URxvt*internalBorder: 0
 
-! SPECIAL
-URxvt*foreground:   #f8f8f8
-URxvt*background:   #1b1d1e
-! BLACK
-URxvt*color0:       #465457
-URxvt*color8:       #1b1d1e
-! RED
-URxvt*color1:       #d7005f
-URxvt*color9:       #d7005f
-! GREEN
-URxvt*color2:       #87ff00
-URxvt*color10:      #87ff00
-! YELLOW
-URxvt*color3:       #ff8700
-URxvt*color11:      #ff8700
-! BLUE
-URxvt*color4:       #acac85
-URxvt*color12:      #acac85
-! MAGENTA
-URxvt*color5:       #af5fff
-URxvt*color13:      #af5fff
-! CYAN
-URxvt*color6:       #5fd7ff
-URxvt*color14:      #5fd7ff
-! WHITE
-URxvt*color7:       #f8f8f8
-URxvt*color15:      #ffffff
-<<<<<<< HEAD
-
-!!!!! end !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-=======
->>>>>>> master
+! FONT
+URxvt*font: xft:Hasklug Nerd Font Mono:size=9
